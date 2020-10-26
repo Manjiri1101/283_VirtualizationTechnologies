@@ -25,5 +25,5 @@ As the prerequisite, I have created the git repo, and installed `VMWare workstat
 `root@ubuntu:/home/manjiri/CMPE283-1# uname -r
 5.4.0-52-generic `
 
-<img src=""><img/>
+<img src="install-essential.png"/>
 
