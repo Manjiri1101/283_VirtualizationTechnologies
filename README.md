@@ -31,11 +31,11 @@ This is prerquisite to run "Make" in Ubuntu.
 
 As per the instructions, I have created the cmpe283-1.c file, please check it out in my git folder. I have used the following commands to run ".mo" file.
 
-`root@ubuntu:/home/manjiri/CMPE283-1# vi cmpe283-1.c
+`root@ubuntu:/home/manjiri/CMPE283-1# vi cmpe283-1.c`
 
-root@ubuntu:/home/manjiri/CMPE283-1# make
+`root@ubuntu:/home/manjiri/CMPE283-1# make`
 
-root@ubuntu:/home/manjiri/CMPE283-1# insmod ./cmpe283-1.ko`
+`root@ubuntu:/home/manjiri/CMPE283-1# insmod ./cmpe283-1.ko`
 
 
 <img src="to-run.png"/>
