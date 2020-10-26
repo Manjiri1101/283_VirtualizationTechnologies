@@ -1,7 +1,7 @@
 # CMPE283 : Virtualization Technology 
-## Assignment 1: Discovering VMX Features
-## student names: Manjiri Kadam, Pranjali Kotgire
-## University Name: San Jose State University
+#### Assignment 1: Discovering VMX Features
+#### student names: Manjiri Kadam, Pranjali Kotgire
+#### University Name: San Jose State University
 
 ## Prerequisites
 • You will need a machine capable of running Linux, with VMX virtualization features exposed. You
