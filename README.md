@@ -28,5 +28,11 @@ As the prerequisite, I have created the git repo, and installed `VMWare workstat
 <img src="install-essential.png"/>
 This is prerquisite to run "Make" in Ubuntu.
 
+
+As per the instructions, I have created the cmpe283-1.c file, please check it out in my git folder. I have used the following commands to run ".mo" file.
+
+
 <img src=" ">
+
+
 
