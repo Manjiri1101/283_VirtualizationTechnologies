@@ -32,7 +32,12 @@ This is prerquisite to run "Make" in Ubuntu.
 As per the instructions, I have created the cmpe283-1.c file, please check it out in my git folder. I have used the following commands to run ".mo" file.
 
 
-<img src=" ">
+<img src=" to-run.png">
+
+The output for the file is shown in below screenshot:
+
+<img src="output.png"/>
+
 
 
 
