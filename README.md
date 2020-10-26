@@ -1,7 +1,7 @@
 # CMPE283 : Virtualization Technology 
-##Assignment 1: Discovering VMX Features
+## Assignment 1: Discovering VMX Features
 
-##Prerequisites
+## Prerequisites
 • You will need a machine capable of running Linux, with VMX virtualization features exposed. You
 may be able to do this inside a VM, or maybe not, depending on your hardware and software
 configuration.
@@ -26,4 +26,7 @@ As the prerequisite, I have created the git repo, and installed `VMWare workstat
 5.4.0-52-generic `
 
 <img src="install-essential.png"/>
+This is prerquisite to run "Make" in Ubuntu.
+
+<img src=" ">
 
