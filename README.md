@@ -19,6 +19,9 @@ distribution you wish.
 • Load (insert) the new module
 • Verify proper output in the system message log
 
+#### Assignment Details:
+This is group assignment done by pranjali kotgire and Manjiri Kadam. Pranjali has worked on installation and configuration of virtual Machine. And Manjiri has worked on compilation of linux source code, Tried,Tested commands which are feasible with ubantu.Both of us studied,discuss on same assignment and we studied Intel SDM provided by professor and listened to the lecture provided by professor on this assignment.
+
 ## 
 
 As the prerequisite, I have created the git repo, and installed `VMWare workstation` on my Windows10 Machine. On top of that I configured the Ubuntu machine - ISO Ubuntu 18.04.5.
