@@ -1,5 +1,7 @@
 # CMPE283 : Virtualization Technology 
 ## Assignment 1: Discovering VMX Features
+## student names: Manjiri Kadam, Pranjali Kotgire
+## University Name: San Jose State University
 
 ## Prerequisites
 • You will need a machine capable of running Linux, with VMX virtualization features exposed. You
@@ -21,7 +23,7 @@ distribution you wish.
 
 #### Assignment Details:
 This is group assignment done by pranjali kotgire and Manjiri Kadam. Pranjali has worked on installation and configuration of virtual Machine. And Manjiri has worked on compilation of linux source code, Tried,Tested commands which are feasible with ubantu.Both of us studied,discuss on same assignment and we studied Intel SDM provided by professor and listened to the lecture provided by professor on this assignment.
-Purpose of this assignment is to create a linux kernal module which would then query diffrent MSR's to get to know about vartulization features available in particular CPU.
+Purpose of this assignment is to create a linux kernal module which would then query diffrent MSR's to get to know about vartulization features available in particular CPU. Detail step-by-step description is as given below:
 
 ## 
 
