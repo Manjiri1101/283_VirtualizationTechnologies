@@ -31,6 +31,7 @@ required to test your assignment
 
 ## How we built the kernel:
 Please follow the steps:
+
 1)We followed the steps to install the VM, then Ubuntu on our Windows / Mac PC. Installed ISO - Ubuntu 18.5, allocated disk space of 250 GB.
 2) We have cloned the Linux github repository, using following command;
   `git clone https://github.com/torvalds/linux.git `
