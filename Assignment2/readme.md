@@ -45,15 +45,25 @@ Please follow the steps:
  
 4) Installed the dependency;
  `sudo apt-get install build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache bison flex libelf-dev`
+ 
 5) Noted the kernel Version by using - `uname -r` which was: 
+
 7) `cd linux`
+
 8) `cp /boot/config-$(uname -r) ./.config ` Replace (uname -r) eg- ` cp /boot/config- ./.config `
+
 9) ` sudo make oldconfig ` (and then just use the default for everything, don’t change anything – you can do this by holding down enter)
+
 10) Runthe following instruction in "Linux" folder one by one:
 `sudo  make` ,  `sudo make modules` , ` sudo make install`  and `sudo make modules_install` 
 These steps might need 4-6 hours to complete for the first time.
+
 11) Then reboot the Ubuntu machine:
 ` sudo reboot`
+
 12) Verify that you are using the newer kernel (5.8, etc) after reboot: `uname -a`
 
 <img src="updated kernel.png" />
+
+**Note :After executing these priliminary steps, we can edit the code. After changing the code in KVM for the assignment, you can rebuild using the same “make” sequence of
+commands above (and it should only take a few minutes, not several hours).
