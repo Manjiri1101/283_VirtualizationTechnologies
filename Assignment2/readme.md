@@ -9,10 +9,16 @@
 You may be able to do this inside a VM, or maybe not, depending on your hardware and software
 configuration. You should likely be using the environment you created for assignment 1.
 
-### Assignment Detail
-We both examined the source code of kernal together and set up the environment for this assignment, along with this we both studied together exit flow, cpuid exit handler and modified X86.c, cpuid.c and cpuid.h to execute functionality for this assignment. Pranjali has worked on VM installation process using virt-manager and manjiri worked in installation of Ubantu . We both built the kernel. Pranjali worked on total number of exits. 
+#### Question 1:
+### Assignment Contribution of each Team Member
+#### Pranjali Kotgire
+1. Examine kernal source code.
+2. Set up required environment to run expected functionality.
+3. Tried to understand and study about leaf function.
+4. Studied overall exit flow, cpuid exit handler and determined to change cpuid.c file. In cpuid.c modified kvm_emulate_cpuid function if eax == 0x4FFFFFFF.
+5. Worked on installation of a VM using virt-manager.
+6. worked on documentation.
 
-#### The Assignment
 Your assignment is to modify the CPUID emulation code in KVM to report back additional information
 when a special CPUID “leaf function” is called.
 • For CPUID leaf function %eax=0x4FFFFFFF:
