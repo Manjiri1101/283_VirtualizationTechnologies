@@ -56,4 +56,4 @@ These steps might need 4-6 hours to complete for the first time.
 ` sudo reboot`
 12) Verify that you are using the newer kernel (5.8, etc) after reboot: `uname -a`
 
-<img src='283_VirtualizationTechnologies/Assignment2/updated kernel.png' />
+<img src="updated kernel.png" />
