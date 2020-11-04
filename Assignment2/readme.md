@@ -80,5 +80,6 @@ Please run the following commands one by one (root user)
 3) `egrep -c ‘lm’ /proc/cpuinfo`
 
 4) `sudo apt-get install virt-manager`
+<img src="virtmanager.png" />
 
 
