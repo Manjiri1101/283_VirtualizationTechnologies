@@ -74,6 +74,9 @@ These steps might need 4-6 hours to complete for the first time.
 **Note :After executing these priliminary steps, we can edit the code. After changing the code in KVM for the assignment, you can rebuild using the same “make” sequence of
 commands above (and it should only take a few minutes, not several hours).
 
+#### Modify the kernal code
+ we have modified vmx.c and cpuid.c file and after modification we need to rebuild the kernal using make command.
+
                                                    
                                                     
 #### Updating the KVM:
