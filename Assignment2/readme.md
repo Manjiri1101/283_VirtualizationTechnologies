@@ -12,12 +12,22 @@ configuration. You should likely be using the environment you created for assign
 ## Question 1:
 ### Assignment Contribution of each Team Member
 #### Pranjali Kotgire
-1. Examine kernal source code.
+1. Examine kernal source code and build kernal.
 2. Set up required environment to run expected functionality.
 3. Tried to understand and study about leaf function.
-4. Studied overall exit flow, cpuid exit handler and determined to change cpuid.c file. In cpuid.c modified kvm_emulate_cpuid function if eax == 0x4FFFFFFF.
+4. Studied overall exit flow, cpuid exit handler and determined to change cpuid.c file. In cpuid.c modified kvm_emulate_cpuid function if eax == 0x4FFFFFFF. along with this I extended variables in cpuid.c file.
 5. Worked on installation of a VM using virt-manager.
-6. worked on documentation.
+6. Output verification
+7. worked on documentation.
+
+#### Manjiri Kadam
+1. Examine kernal source code and build kernal.
+2. Set up required environment to run expected functionality.
+3. Tried to understand and study about leaf function.
+4. Tried to understand vmx_handle_exit function in vmx.c and wrote code in this function and declared global variables in same file.
+5. Worked on installation of a VM using virt-manager.
+6. Output verification
+7. worked on documentation.
 
 Your assignment is to modify the CPUID emulation code in KVM to report back additional information
 when a special CPUID “leaf function” is called.
@@ -110,6 +120,7 @@ Test output using cpuid command:`cpuid –leaf=0x4FFFFFFF`
 #### Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail?
 
 1.We observed that during the VM boot, number of VM exits increase drastically untill VM gets stable and they increase gradually after we fire cpuid –leaf=0x4FFFFFFF command from VM.
+
 2. around 60,00,000 exits we observed during the booting process of VM.
 
 #### Modified the cpuid.c and vmx.c files, ran the commands: "make && make modules && make install && make modules-install" as root user. It ran successfully. 
