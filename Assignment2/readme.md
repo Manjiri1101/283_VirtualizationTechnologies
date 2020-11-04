@@ -67,3 +67,17 @@ These steps might need 4-6 hours to complete for the first time.
 
 **Note :After executing these priliminary steps, we can edit the code. After changing the code in KVM for the assignment, you can rebuild using the same “make” sequence of
 commands above (and it should only take a few minutes, not several hours).
+
+                                                    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                                    
+#### Updating the KVM:
+Please run the following commands one by one (root user)
+1) `kvm-ok`
+
+2) `sudo apt install cpu-checker`
+
+3) `egrep -c ‘lm’ /proc/cpuinfo`
+
+4) `sudo apt-get install virt-manager`
+
+
