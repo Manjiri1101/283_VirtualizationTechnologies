@@ -50,7 +50,7 @@ Please follow the steps:
 
 7) `cd linux`
 
-8) `cp /boot/config-$(uname -r) ./.config ` Replace (uname -r) eg- ` cp /boot/config- ./.config `
+8) `cp /boot/config-$(uname -r) ./.config ` Replace (uname -r) eg- ` cp /boot/config-5.4.0-52-generic ./.config `
 
 9) ` sudo make oldconfig ` (and then just use the default for everything, don’t change anything – you can do this by holding down enter)
 
