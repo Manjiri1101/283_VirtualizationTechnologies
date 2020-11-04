@@ -41,7 +41,7 @@ Please follow the steps:
 
  Checked the Linux Version (old):
  `uname -a`
- O/P:
+ <img src="unameold.png" />
  
 4) Installed the dependency;
  `sudo apt-get install build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache bison flex libelf-dev`
