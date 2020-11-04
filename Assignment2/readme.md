@@ -32,6 +32,9 @@ required to test your assignment
 ## How we built the kernel:
 Please follow the steps:
 
+First of all make sure in the flags, VMX capability is there using `cat /proc/cpuinfo|more`. If you can see VMX capability then CPU has been set up properly.
+![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment2/vmx.png)
+
 1)We followed the steps to install the VM, then Ubuntu on our Windows / Mac PC. Installed ISO - Ubuntu 18.5, allocated disk space of 250 GB.
 
 2) We have cloned the Linux github repository, using following command;
