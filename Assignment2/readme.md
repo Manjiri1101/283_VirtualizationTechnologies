@@ -9,7 +9,7 @@
 You may be able to do this inside a VM, or maybe not, depending on your hardware and software
 configuration. You should likely be using the environment you created for assignment 1.
 
-#### Question 1:
+## Question 1:
 ### Assignment Contribution of each Team Member
 #### Pranjali Kotgire
 1. Examine kernal source code.
@@ -38,7 +38,9 @@ distribution you wish, but it must support the KVM hypervisor.
 required to test your assignment
 • Verify proper output
 
-## How we built the kernel:
+## Question:2
+#### Steps that we used to complete the assignment
+#### How we built the kernel:
 Please follow the steps:
 
 First of all make sure in the flags, VMX capability is there using `cat /proc/cpuinfo|more`. If you can see VMX capability then CPU has been set up properly.
@@ -103,6 +105,12 @@ Please run the following commands one by one (root user)
 #### verify output:
 on vm install cpuid: `Sudo apt install cpuid`
 Test output using cpuid command:`cpuid –leaf=0x4FFFFFFF`
+
+## question:3
+#### Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail?
+
+1.We observed that during the VM boot, number of VM exits increase drastically untill VM gets stable and they increase gradually after we fire cpuid –leaf=0x4FFFFFFF command from VM.
+2. around 60,00,000 exits we observed during the booting process of VM.
 
 #### Modified the cpuid.c and vmx.c files, ran the commands: "make && make modules && make install && make modules-install" as root user. It ran successfully. 
 Please check the attched files
