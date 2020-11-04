@@ -88,4 +88,9 @@ Please run the following commands one by one (root user)
 4) `sudo apt-get install virt-manager`
 <img src="virtmanager.png" />
 
+#### Modified the cpuid.c and vmx.c files, ran the commands: "make && make modules && make install && make modules-install" as root user. It ran successfully. 
+Please check the attched files
 
+
+
+Thank you.
