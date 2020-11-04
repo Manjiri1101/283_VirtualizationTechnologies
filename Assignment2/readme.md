@@ -116,7 +116,7 @@ Please run the following commands one by one (root user)
 on vm install cpuid: `Sudo apt install cpuid`
 Test output using cpuid command:`cpuid –leaf=0x4FFFFFFF`
 
-## question:3
+## Question:3
 #### Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail?
 
 1.We observed that during the VM boot, number of VM exits increase drastically untill VM gets stable and they increase gradually after we fire cpuid –leaf=0x4FFFFFFF command from VM.
