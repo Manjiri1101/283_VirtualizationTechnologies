@@ -76,6 +76,9 @@ commands above (and it should only take a few minutes, not several hours).
 
 #### Modify the kernal code
  we have modified vmx.c and cpuid.c file and after modification we need to rebuild the kernal using make command.
+ ![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment2/sudomake.png)
+![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment2/sudomake1.png)
+
 
                                                    
                                                     
