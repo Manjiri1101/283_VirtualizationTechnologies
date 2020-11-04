@@ -73,6 +73,7 @@ commands above (and it should only take a few minutes, not several hours).
 #### Updating the KVM:
 Please run the following commands one by one (root user)
 1) `kvm-ok`
+<img src="kvm.png" />
 
 2) `sudo apt install cpu-checker`
 
