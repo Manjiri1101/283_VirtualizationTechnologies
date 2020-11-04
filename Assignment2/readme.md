@@ -39,7 +39,7 @@ Please follow the steps:
 
  Checked the Linux Version (old):
  `uname -a`
- O/P:
+ ![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment2/uname1.png)
  
  4) Installed the dependency;
  `sudo apt-get install build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache bison flex libelf-dev`
