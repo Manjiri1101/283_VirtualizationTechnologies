@@ -1,8 +1,8 @@
 # CMPE283 : Virtualization Technology
 # Assignment 2 : Modifying instruction behavior in KVM
 
-Student names: Manjiri Kadam, Pranjali Kotgire
-University Name: San Jose State University
+#### Student names: Manjiri Kadam, Pranjali Kotgire
+#### University Name: San Jose State University
 
 ### Prerequisites
 • You will need a machine capable of running Linux, with VMX or SVM virtualization features exposed.
@@ -33,14 +33,27 @@ required to test your assignment
 Please follow the steps:
 
 1)We followed the steps to install the VM, then Ubuntu on our Windows / Mac PC. Installed ISO - Ubuntu 18.5, allocated disk space of 250 GB.
+
 2) We have cloned the Linux github repository, using following command;
   `git clone https://github.com/torvalds/linux.git `
+  
 3) We followed the insructions given in the Assignment pdf to build kernel.
 
  Checked the Linux Version (old):
  `uname -a`
- ![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment2/uname1.png)
+ O/P:
  
- 4) Installed the dependency;
+4) Installed the dependency;
  `sudo apt-get install build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache bison flex libelf-dev`
- 5) Noted the kernel Version by using - `uname -r` which was: 
+5) Noted the kernel Version by using - `uname -r` which was: 
+7) `cd linux`
+8) `cp /boot/config-$(uname -r) ./.config ` Replace (uname -r) eg- ` cp /boot/config- ./.config `
+9) ` sudo make oldconfig ` (and then just use the default for everything, don’t change anything – you can do this by holding down enter)
+10) Runthe following instruction in "Linux" folder one by one:
+`sudo  make` ,  `sudo make modules` , ` sudo make install`  and `sudo make modules_install` 
+These steps might need 4-6 hours to complete for the first time.
+11) Then reboot the Ubuntu machine:
+` sudo reboot`
+12) Verify that you are using the newer kernel (5.8, etc) after reboot: `uname -a`
+
+<img>
