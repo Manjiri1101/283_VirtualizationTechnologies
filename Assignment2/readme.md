@@ -9,6 +9,9 @@
 You may be able to do this inside a VM, or maybe not, depending on your hardware and software
 configuration. You should likely be using the environment you created for assignment 1.
 
+### Assignment Detail
+We both examined the source code of kernal together and set up the environment for this assignment, along with this we both studied together exit flow, cpuid exit handler and modified X86.c, cpuid.c and cpuid.h to execute functionality for this assignment. Pranjali has worked on VM installation process using virt-manager and manjiri worked in installation of Ubantu. Pranjali worked on total number of exits and Manjiri worked on total number of cycles during exit.
+
 #### The Assignment
 Your assignment is to modify the CPUID emulation code in KVM to report back additional information
 when a special CPUID “leaf function” is called.
