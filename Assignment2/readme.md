@@ -25,7 +25,7 @@ configuration. You should likely be using the environment you created for assign
 2. Set up required environment to run expected functionality.
 3. Tried to understand and study about leaf function.
 4. Tried to understand vmx_handle_exit function in vmx.c and wrote code in this function and declared global variables in same file.
-5. Worked on installation of a VM using virt-manager.
+5. Worked on installation of a VM using virt-manager(installed Ubuntu 18.04 ISO inside Ubuntu). Ran test files to see the exits.
 6. Output verification
 7. worked on documentation.
 
@@ -122,6 +122,7 @@ Test output using cpuid command:`cpuid –leaf=0x4FFFFFFF`
 1.We observed that during the VM boot, number of VM exits increase drastically untill VM gets stable and they increase gradually after we fire cpuid –leaf=0x4FFFFFFF command from VM.
 
 2. around 60,00,000 exits we observed during the booting process of VM.
+<img src="test.png" />
 
 #### Modified the cpuid.c and vmx.c files, ran the commands: "make && make modules && make install && make modules-install" as root user. It ran successfully. 
 Please check the attched files
