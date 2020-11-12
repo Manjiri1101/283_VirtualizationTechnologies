@@ -112,6 +112,12 @@ Please run the following commands one by one (root user)
 4) `sudo apt-get install virt-manager`
 <img src="virtmanager.png" />
 
+5)`sudo apt-get install libvirt-bin libvirt-doc`
+
+6)`sudo apt-get install qemu-system`
+
+7)`sudo virt-manager`
+
 #### verify output:
 on vm install cpuid: `Sudo apt install cpuid`
 Test output using cpuid command:`cpuid –leaf=0x4FFFFFFF`
