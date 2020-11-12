@@ -121,7 +121,7 @@ Test output using cpuid command:`cpuid –leaf=0x4FFFFFFF`
 
 1.We observed that during the VM boot, number of VM exits increase drastically untill VM gets stable and they increase gradually after we fire cpuid –leaf=0x4FFFFFFF command from VM.
 
-2. around 60,00,000 exits we observed during the booting process of VM.
+2.  3631098 exits we observed during the booting process of VM.
 <img src="test.png" />
 
 #### Modified the cpuid.c and vmx.c files, ran the commands: "make && make modules && make install && make modules-install" as root user. It ran successfully. 
