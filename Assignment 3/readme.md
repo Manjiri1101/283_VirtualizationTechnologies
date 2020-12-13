@@ -29,6 +29,7 @@ make -j 4 && make -j 4 modules / make -j 2 && make -j 2 modules
 
 3.Install the modules using below commands:
 make modules_install && make install 
+![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%203/buildmodu.png)
 
 4.Install cpuid package in the inner VM
 sudo apt-get install cpuid
