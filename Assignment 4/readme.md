@@ -32,6 +32,9 @@ configuration. You should likely be using the environment you created for assign
 
 2.  Removed the kernels i.e. kvm-intel.ko and kvm.ko 
 
-3. 
+3.  Insert the kernels with ept=0 
+
+4. After rebooting, check the total exits:
+
 
 
