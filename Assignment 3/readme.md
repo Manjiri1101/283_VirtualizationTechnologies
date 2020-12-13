@@ -33,6 +33,7 @@ make modules_install && make install
 
 4.Install cpuid package in the inner VM
 sudo apt-get install cpuid
+![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%203/cpuid.png)
 
 5.Check the total exit time in the Inner VM
 
