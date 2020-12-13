@@ -8,7 +8,7 @@
 ### Prerequisites
 • You will need a machine capable of running Linux, with VMX or SVM virtualization features exposed.
 You may be able to do this inside a VM, or maybe not, depending on your hardware and software
-configuration. You should likely be using the environment you created for assignment 1.
+configuration. You should likely be using the environment you created for assignment 2.
 
 ## Question 1:
 ### Assignment Contribution of each Team Member
