@@ -24,6 +24,8 @@ configuration. You should likely be using the environment you created for assign
 2.Then compile and build the modules using following commands:
 nproc
 make -j 4 && make -j 4 modules / make -j 2 && make -j 2 modules
+![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment2/vmx.png)
+
 
 3.Install the modules using below commands:
 make modules_install && make install 
