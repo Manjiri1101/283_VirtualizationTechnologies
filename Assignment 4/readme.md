@@ -31,6 +31,7 @@ configuration. You should likely be using the environment you created for assign
 1. Before removing the modules, the output of total exits after running the VM on assignment 3.
 
 2.  Removed the kernels i.e. kvm-intel.ko and kvm.ko 
+![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment2/vmx.png)
 
 3.  Insert the kernels with ept=0 
 
