@@ -22,13 +22,16 @@ configuration. You should likely be using the environment you created for assign
 1.To calculate the total time spent processing all exits and the time spent processing the exit number for the particular case, we made changes in vmx.c file and cpuid.c file.
 
 2.Then compile and build the modules using following commands:
-make -j 4 && make -j 4 modules
+nproc
+make -j 4 && make -j 4 modules / make -j 2 && make -j 2 modules
 
 3.Install the modules using below commands:
 make modules_install && make install 
 
-4.Install cpuid package in the virt manager:
+4.Install cpuid package in the inner VM
 sudo apt-get install cpuid
 
-5.Check the total exit time in the virt manager
+5.Check the total exit time in the Inner VM
+
+
 
