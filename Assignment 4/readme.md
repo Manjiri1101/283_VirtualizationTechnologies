@@ -32,6 +32,7 @@ configuration. You should likely be using the environment you created for assign
 
 2.  Removed the kernels i.e. kvm-intel.ko and kvm.ko 
 ![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%204/screenshot-1.png)
+![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%204/screenshot-3.png)
 
 3.  Insert the kernels with ept=0 
 
