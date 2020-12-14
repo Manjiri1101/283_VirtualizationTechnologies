@@ -71,7 +71,7 @@ Please Refer to Assignment 2, as we have used the same enviroment for Assignment
 1. The total exit time is increasing and High 32 bit of total time spent on processing is 0 as time spent in processing exits is very minimal. 
 2. Low 32 bit has been captured in %ecx.
 3. The frequency of number of  exits are not increasing at a constant rate . 
-4. We can observe that VM boot for exit 28 entails up to 15k exits after full boot.
+4. We can observe that VM boot for exit 28 entails up to 46k exits after full boot.
 
 
 
