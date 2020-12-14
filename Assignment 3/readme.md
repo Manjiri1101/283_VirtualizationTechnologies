@@ -14,16 +14,21 @@ configuration. You should likely be using the environment you created for assign
 
 ## Question 1:
 ### Assignment Contribution of each Team Member
-#### Pranjali Kotgire and Manjiri Kadam
+#### Pranjali Kotgire 
 
-1. Completed the code for CPUID leaf node %eax = 0x4FFFFFFE part.
-2. We both have modified the cpuid.c and vmx.c file on extension to the assignment 2
-3. We utilised the setup we implemented for assignment 2.
-4. Noted the number of exits and output by running test files.
-5. Recorded step by step implementation in our readme.md file along with screenshots.
-6. Recorded Answers for asked questions.
+1. Completed the code for CPUID leaf node %eax = 0x4FFFFFFE part with Manjiri
+2. Utilised the setup we implemented for assignment 2.
+3. Modified the cpuid.c and vmx.c file on extension to the assignment 2
+4. Recorded Answers for asked questions.
 
+#### Manjiri Kadam
+1. Refered the ppt and lecture. Learned about exits with help of SDM
+2. Modified the cpuid.c and vmx.c file on extension to assignment 2.
+3. Noted the number of exits and output by running test files and recorded the output in readme.md file along with the screenshots.
+4. Answered the asked question.
 
+Please Refer to Assignment 2, as we have used the same enviroment for Assignment 3
+[Check out git link]("https://github.com/Manjiri1101/283_VirtualizationTechnologies/tree/master/Assignment2")
 
 ## Question 2:
 ### Steps Performed For Assignment:
@@ -52,7 +57,6 @@ configuration. You should likely be using the environment you created for assign
 
 <img src="cpuidpkg.png" />
 
-![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%203/cpuid.png)
 
 5.Check the total exit time in the Inner VM
 
@@ -62,6 +66,6 @@ configuration. You should likely be using the environment you created for assign
 <img src="dmesg.png" />
 
 
-
+Thank You.
 
 
