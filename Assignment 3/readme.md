@@ -65,6 +65,15 @@ Please Refer to Assignment 2, as we have used the same enviroment for Assignment
 6. Checked dmesg from VM
 <img src="dmesg.png" />
 
+## Question 3:
+## Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail?
+
+1. The total exit time is increasing and High 32 bit of total time spent on processing is 0 as time spent in processing exits is very minimal. 
+2. Low 32 bit has been captured in %ecx.
+3. The frequency of number of  exits are not increasing at a constant rate . 
+4. We can observe that VM boot for exit 28 entails up to 15k exits after full boot.
+
+
 
 Thank You.
 
