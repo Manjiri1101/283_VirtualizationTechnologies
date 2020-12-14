@@ -29,6 +29,7 @@ configuration. You should likely be using the environment you created for assign
 ## Include a sample of your print of exit count output from dmesg from “with ept” and “without ept”.
 
 1. Before removing the modules, the output of total exits after running the VM on assignment 3.
+![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%203/dmesg.png)
 
 2.  Removed the kernels i.e. kvm-intel.ko and kvm.ko 
 ![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%204/screenshot-1.png)
