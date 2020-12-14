@@ -14,7 +14,7 @@ configuration. You should likely be using the environment you created for assign
 
 ## Question 1:
 ### Assignment Contribution of each Team Member
-#### 
+#### Pranjali Kotgire and Manjiri Kadam
 
 1. Completed the code for CPUID leaf node %eax = 0x4FFFFFFE part.
 2. We both have modified the cpuid.c and vmx.c file on extension to the assignment 2
@@ -22,6 +22,7 @@ configuration. You should likely be using the environment you created for assign
 4. Noted the number of exits and output by running test files.
 5. Recorded step by step implementation in our readme.md file along with screenshots.
 6. Recorded Answers for asked questions.
+
 
 
 ## Question 2:
@@ -36,6 +37,8 @@ configuration. You should likely be using the environment you created for assign
 
 ![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%203/makemodule.png)
 
+<img src="make.png"/>
+
 
 3.Install the modules using below commands:
 
@@ -43,13 +46,22 @@ configuration. You should likely be using the environment you created for assign
 
 ![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%203/buildmodu.png)
 
-4.Install cpuid package in the inner VM
+4.Install cpuid package in the inner VM:
 
 `sudo apt-get install cpuid`
+
+<img src="cpuidpkg.png" />
 
 ![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%203/cpuid.png)
 
 5.Check the total exit time in the Inner VM
+
+<img src="opinnerv.png" />
+
+6. Checked dmesg from VM
+<img src="dmesg.png" />
+
+
 
 
 
