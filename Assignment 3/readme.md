@@ -14,18 +14,25 @@ configuration. You should likely be using the environment you created for assign
 
 ## Question 1:
 ### Assignment Contribution of each Team Member
-#### Pranjali Kotgire
-1. Completed the code for CPUID leaf node %eax = 0x4FFFFFFC part.
-#### Manjiri Kadam
+#### 
+
 1. Completed the code for CPUID leaf node %eax = 0x4FFFFFFE part.
+2. We both have modified the cpuid.c and vmx.c file on extension to the assignment 2
+3. We utilised the setup we implemented for assignment 2.
+4. Noted the number of exits and output by running test files.
+5. Recorded step by step implementation in our readme.md file along with screenshots.
+6. Recorded Answers for asked questions.
+
 
 ## Question 2:
 ### Steps Performed For Assignment:
 1.To calculate the total time spent processing all exits and the time spent processing the exit number for the particular case, we made changes in vmx.c file and cpuid.c file.
+<img src="cpuid.c"/>
 
 2.Then compile and build the modules using following commands:
 
-`nproc make -j 4 && make -j 4 modules / make -j 2 && make -j 2 modules` 
+`nproc`
+`make -j 4 && make -j 4 modules / make -j 2 && make -j 2 modules` (depends on proc value)
 
 ![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%203/makemodule.png)
 
