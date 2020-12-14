@@ -45,24 +45,18 @@ Please Refer to Assignment 2, as we have used the same enviroment for Assignment
 <img src="make.png"/>
 
 
-3.Install the modules using below commands:
-
-`make modules_install && make install `
-
-![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%203/buildmodu.png)
-
-4.Install cpuid package in the inner VM:
+3.Install cpuid package in the inner VM:
 
 `sudo apt-get install cpuid`
 
 <img src="cpuidpkg.png" />
 
 
-5.Check the total exit time in the Inner VM
+4.Check the total exit time in the Inner VM
 
 <img src="opinnerv.png" />
 
-6. Checked dmesg from VM
+5. Checked dmesg from VM
 <img src="dmesg.png" />
 
 ## Question 3:
