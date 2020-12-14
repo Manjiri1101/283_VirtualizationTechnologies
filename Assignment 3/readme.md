@@ -27,7 +27,7 @@ configuration. You should likely be using the environment you created for assign
 ## Question 2:
 ### Steps Performed For Assignment:
 1.To calculate the total time spent processing all exits and the time spent processing the exit number for the particular case, we made changes in vmx.c file and cpuid.c file.
-<img src="cpuid.c"/>
+<img src="cpuid.c.png"/>
 
 2.Then compile and build the modules using following commands:
 
