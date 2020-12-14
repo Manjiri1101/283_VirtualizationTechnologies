@@ -13,7 +13,7 @@ configuration. You should likely be using the environment you created for assign
 ## Question 1:
 ### Assignment Contribution of each Team Member
 #### Pranjali Kotgire
-1. Studied nested and shadow paging
+1. Studied nested and shadow paging.
 2. Worked on kvm-intel module
 3. Created Document
 4. Examine number of exits with ept and without ept
@@ -21,7 +21,7 @@ configuration. You should likely be using the environment you created for assign
 
 #### Manjiri Kadam
 1. Studied nested and shadow paging
-2. Worked on kvm module
+2. Worked on kvm module along with Pranjali
 3. Updated Document
 4. Examine number of exits with ept and without ept
 
