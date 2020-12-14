@@ -44,4 +44,14 @@ configuration. You should likely be using the environment you created for assign
 4. After rebooting, check the total exits:
 ![](https://github.com/Manjiri1101/283_VirtualizationTechnologies/blob/master/Assignment%204/screenshot-5.png)
 
+## Question:3
+## What did you learn from the count of exits? Was the count what you expected? If not, why not?
+Exit count increased when running the kernel with ept=0. This behavior is expected because after reloading the kernels i.e. kvm-intel.ko and kvm.ko with ept=0, it will induce the shadow paging behavior inside our environment setup. Shadow paging will always execute more exits than nested paging.
+
+## Question:4
+## What changed between the two runs (ept vs no-ept)?
+We created a nested virtualized environment in assignment 2 by running a VM on top of our local Linux machine. By inserting the modules with ept=0, we have induced the shadow paging behavior which results into greater number of VM Exits.
+
+
+
 
